@@ -11,17 +11,17 @@ def line():
 
     print()
     print("Para la siguiente ecuación:")
-    print("Y = ({})x + ({})".format(A, B))
+    print("Y = ({:.1f})x + ({:.1f})".format(A, B))
 
     Y1 = A * X1 + B
     Y2 = A * X2 + B
 
     print()
     print("Dados los siguientes puntos:")
-    print("\tP1 ({}, {})".format(X1, Y1))
-    print("\tP2 ({}, {})".format(X2, Y2))
+    print("\tP1 ({:.1f}, {:.1f})".format(X1, Y1))
+    print("\tP2 ({:.1f}, {:.1f})".format(X2, Y2))
 
     D = ((X2 - X1)**2 + (Y2 - Y1)**2)**0.5
 
     print()
-    print("La distancia entre ellos es: {}".format(D))
+    print("La distancia entre ellos es: {:.2f}".format(D))
