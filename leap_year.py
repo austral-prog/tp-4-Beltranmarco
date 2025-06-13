@@ -4,5 +4,3 @@ def leap_year():
         print (f"El año {año} es bisiesto")  
     else :
         print (f"El año {año} no es bisiesto")    
-
-leap_year ()
